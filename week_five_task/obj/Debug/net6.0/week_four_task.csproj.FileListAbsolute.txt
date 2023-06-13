@@ -1,0 +1,15 @@
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\bin\Debug\net6.0\week_four_task.exe
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\bin\Debug\net6.0\week_four_task.deps.json
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\bin\Debug\net6.0\week_four_task.runtimeconfig.json
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\bin\Debug\net6.0\week_four_task.dll
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\bin\Debug\net6.0\week_four_task.pdb
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.csproj.AssemblyReference.cache
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.AssemblyInfoInputs.cache
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.AssemblyInfo.cs
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.csproj.CoreCompileInputs.cache
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.dll
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\refint\week_four_task.dll
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.pdb
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\week_four_task.genruntimeconfig.cache
+C:\Users\JAIMZ\Desktop\DECAGON_CODE\WEEK_FOUR\TASK\week_four_task\obj\Debug\net6.0\ref\week_four_task.dll

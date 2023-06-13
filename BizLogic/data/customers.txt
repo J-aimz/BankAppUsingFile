@@ -1,0 +1,4 @@
+id,fullname,password,email
+2323,james,#aaaaa,a@mail.com
+5565,adah,#zzzzzz,j@mail.com
+6554,John,#qqqqq,m@mail.com

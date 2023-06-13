@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Bank_App/1.0.0": {
+        "dependencies": {
+          "BizLogic": "1.0.0"
+        },
+        "runtime": {
+          "Bank_App.dll": {}
+        }
+      },
+      "BizLogic/1.0.0": {
+        "runtime": {
+          "BizLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bank_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BizLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
