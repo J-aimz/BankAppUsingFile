@@ -4,10 +4,11 @@ namespace Bank_App;
 
 public class Controller
 {
-    private  Views GetView;
+    private Views GetView;
     private Validations Validate;
     private RegisterUser Users;
-    private DocumentHandling _DocumentHacddling;
+    private DocumentHandling _DocumentHanddling;
+    private Account _AccOperations;
 
 
 
@@ -16,7 +17,8 @@ public class Controller
         GetView = new Views();
         Validate = new Validations();
         Users = new RegisterUser();
-        _DocumentHacddling = new DocumentHandling();
+        _DocumentHanddling = new DocumentHandling();
+        _AccOperations= new Account();
     }
 
 
@@ -109,7 +111,7 @@ public class Controller
 
 
         //registering to the document
-        _DocumentHacddling.RegisterNewCustomer(fullName, email, password, accChoice);
+        _DocumentHanddling.RegisterNewCustomer(fullName, email, password, accChoice);
 
         /*
          
@@ -147,7 +149,7 @@ public class Controller
 
 
         //new setup new acctount 
-        string[] accDetail = _DocumentHacddling.RegisterNewAccount(customer[0], accChoice);
+        string[] accDetail = _DocumentHanddling.RegisterNewAccount(customer[0], accChoice);
 
 
 
@@ -300,7 +302,9 @@ public class Controller
 
 
         //retriving customer account details
-        var customerAccountDetails = _DocumentHacddling.GetAllUserAccountDetails(customer[0]);
+        var customerAccountDetails = _DocumentHanddling.GetAllUserAccountDetails(customer[0]);
+
+
 
         var accountDetail = Validate.ValidatePersonalAccountNumber(customerAccountDetails, accountNumber);
         if (accountDetail != null)
@@ -330,15 +334,17 @@ public class Controller
         GetView.RenderView("Enter Amount: ");
         string amount = GetView.GetInput();
 
+        var customerAccountDetails = _DocumentHanddling.GetAllUserAccountDetails(customer[0]);
 
-
-        if (Validate.VerifyAccountNumber(customer, account) && Validate.VerifyAmount(amount))
+        //f (Validate.VerifyAccountNumber(customer, account) && Validate.VerifyAmount(amount))
+        
+        if(customerAccountDetails != null && Validate.VerifyAmount(amount))
         {
-            decimal amt = decimal.Parse(amount);
+            //decimal amt = decimal.Parse(amount);
            
 
             //notification of successful transaction
-            if (customer.Deposit(account, amt))
+            if (customer.Deposit(customerAccountDetails, amt))
             {
 
                 GetView.RenderView("");
